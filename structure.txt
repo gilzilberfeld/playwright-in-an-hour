@@ -1,0 +1,68 @@
+Intro
+	What it is
+		How we got here
+			Selenium, cypress
+		History (Puppeteer, browser control protocol)
+		Full test framework
+			Registration, Runner, reporter, asserts
+		And it's growing
+		Comes in all the flavors
+			 JavaScript, TypeScript, Python, Java, and C#/.NET
+	How it works
+		Automate driver to browser.
+			 Chrome, Firefox, and WebKit
+				Cross browser	
+					Mobile emulation (geo location, screen size)
+		Finds and operates locators
+		V Registration example d01
+			Operations, expects
+		Running
+			Extension , CLI (how it looks where it fails)
+			Debugging
+			*** Demo
+			Local own server running
+	Locators
+		Finding locators (xpath, role, etc.)
+	Expects	
+		List
+	What's cool
+		Default is headless
+			Fast
+		It waits - Auto wait
+			v Registration error example d02
+			Tests are concise, readable
+			The problem with that
+				Errors are about timeouts.
+		Isolation
+			Page / Browser context
+				Each test runs in isolation
+				v demo d03
+			More stable.
+				This does not say anything about the backend.
+				Parallel run.
+	With everything
+		CodeGen tool.
+			*** Example
+			Good for
+			Problems
+				Not the locator I want
+				Fragility
+				Maintainability
+		API support
+			v d04
+		Accessibility testing
+			v d05
+		Component testing?
+			-> *** Prepare
+	Grouping and fixtures
+		Before each/all
+		  Registration example	
+		describe
+			v d06 Prepare
+		Fixture
+		-> *** Prepare
+	The verdict
+		Need to write less than before
+		TDD with Playwright
+		Don't gen and leave
+		Don't copy and paste.

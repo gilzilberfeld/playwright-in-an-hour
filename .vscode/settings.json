@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "consts",
+        "nextjs",
+        "tailwindcss",
+        "zilberfeld"
+    ],
+    "jest.autoRun": { "watch": false }
+}
