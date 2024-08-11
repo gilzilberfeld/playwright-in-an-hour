@@ -6,6 +6,6 @@ test.skip("registration page should not have accessibility issues", async ({ pag
 
   const accessibilityScanResults = await new AxeBuilder({ page }).analyze(); 
 
-  expect(accessibilityScanResults.violations.length).toEqual(0); 
+//  expect(accessibilityScanResults.violations.length).toEqual(0); 
   expect(accessibilityScanResults.violations).toEqual([]); 
 });
